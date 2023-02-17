@@ -1,0 +1,11 @@
+img {
+  max-width: 100%;
+  display: block;
+}
+
+body {
+  background-color: #f1f1f1;
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
