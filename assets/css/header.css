@@ -12,7 +12,6 @@ header {
 
 .header-container {
   margin: 0 auto;
-  max-width: 1200px;
   display: flex;
   align-items: center;
   padding: 30px;
@@ -76,6 +75,9 @@ header {
 }
 
 @media (max-width: 900px) {
+  .header-container {
+    max-width: 760px;
+  }
   .header-search,
   .header-items {
     display: none;
